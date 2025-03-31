@@ -8,6 +8,9 @@ span{
 header{
     border-bottom: 10px;
     border-color: black;
+    justify-content: space-between;
+    border-bottom: 10px;
+    border-color: black;
 }
 
 .caixinhas{
@@ -19,4 +22,16 @@ header{
 }
 footer{
     background-color: $corVerde;
+}
+#1{
+    align-items: center;
+}
+.primeraTela {
+    justify-content: space-between;
+}
+.quadrado01{
+    background-color: $corVerde;
+    width: 150px;
+    height: 150px;
+    justify-content: space-around;
 }

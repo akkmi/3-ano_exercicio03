@@ -5,6 +5,9 @@ span {
 header {
   border-bottom: 10px;
   border-color: black;
+  justify-content: space-between;
+  border-bottom: 10px;
+  border-color: black;
 }
 
 .caixinhas {
