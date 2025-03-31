@@ -1,33 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href=".././dist/styles/main.css">
 </head>
+
 <body>
     <div class="container">
         <header>
-            <h2><span style="color:black;">beauty</span> <span style="color: aquamarine;">Salon</span><span style="color:black;">.</span></h2>
-            <p><span style="color: aquamarine;">Início</span></p>
-            <p>Sobre</p> 
+            <h2><span style="color:black;">beauty</span> <span style="color: #69B99D;">Salon</span><span
+                    style="color:black;">.</span></h2>
+            <p><span style="color:#69B99D;">Início</span></p>
+            <p>Sobre</p>
             <p>Serviços</p>
             <p>Depoimentos</p>
             <p>Contato</p>
         </header>
         <main>
-            <div class="col">
-                <h2>Saúde natural para</h2> 
-                <h2>os seus cabelos</h2>
-                <p>Um salão exclusivo em São Paulo,</p>
-                <p>especializado em tratamentos naturais.</p>
-                <button><p><span style="color: aliceblue;">Agendar um horário</span></p></button>
+            <div class="primeiraTela">
+                <div class="col" id="1">
+                    <h1>Saúde natural para</h1>
+                    <h1>os seus cabelos</h1>
+                    <p>Um salão exclusivo em São Paulo,</p>
+                    <p>especializado em tratamentos naturais.</p>
+                    <button>
+                        <p><span style="color: aliceblue;">Agendar um horário</span></p>
+                    </button>
+                </div>
+                <div class="col" id="2">
+                    <div class="quadrado1"></div>
+                    <img src="./styles/img/Captura de tela 2025-03-24 115913.png" alt="">
+                </div>
             </div>
-            <div class="col">
-                <div class="quadrado"></div>
-                <img src="./styles/img/Captura de tela 2025-03-24 115913.png" alt="">
+            <div class="seguntaTela">
+                <div class="col" id="3">
+                    <div class="quadrado2"></div>
+                    <img src="./styles/img/Captura de tela 2025-03-26 210811.png" alt="">
+                </div>
+                <div class="col" id="4">
+                    <h1>Sobre nós</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi
+                        luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros
+                        ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
+                    </p>
+                    <p>
+                        In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui.
+                        Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue
+                        vulputate sapien, vitae feugiat enim augue sed.
+                    </p>
+                    <p>
+                        Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod
+                        dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at
+                        feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor.
+                        Nullam eget dui at sem ullamcorper luctus.
+                    </p>
+                </div>
+            </div>
+            <div class="terceiraTela">
+                <h1>Serviços</h1>
+                <p>
+                    Com mais de 10 anos no mercado, o <span style="color: #69B99D;">Beautysalon</span> já
+                </p>
+                <p>
+                    conquistou clientes de inúmeros países com seus tratamentos
+                </p>
+                <p>
+                    exclusivos e totalmente naturais
+                </p>
+                <div class="caixinhas">
+                    <div class="box-1">
+                        <div class="icon-1"><img src="../src/styles/img/mulher.png" alt=""></div>
+                        <h3>Terapia Capilar</h3>
+                        <p>Terapia completa para couro </p>
+                        <p>cabeludo e fios, protegendo todos </p>
+                        <p>os tipos de cabelos, inclusive os</p>
+                        <p>longos e finos.</p>
+                    </div>
+                    <div class="box-2">
+                        <div class="icon-2"><img src="../src/styles/img/tersoura.png" alt=""></div>
+                        <h3>Cortes</h3>
+                        <p>cortes diferenciados e clássicos.</p>
+                        <p>A nossa equipe é repleta de</p>
+                        <p>profissionais renomados, famosos</p>
+                        <p>por lançarem tendências com </p>
+                        <p>cortes diferenciados e clássicos.</p>
+                    </div>
+                    <div class="box-3">
+                        <div class="icon-3"> <img src="../src/styles/img/produtos.png" alt=""></div>
+                        <h3>Tratamentos</h3>
+                        <p>O beautysalon conta com</p>
+                        <p>diversos tratamentos naturais e </p>
+                        <p>totalmente veganos, para</p>
+                        <p>qualquer tipo de cabelo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quartaTela">
+                <h2>Depoimentos de quem já</h2>
+                <h2>passou por aqui</h2>
+                <div class="row">
+                    <ul class="slider">
+                        <li>
+                            <input type="radio" id="slide1" name="slide" checked>
+                            <label for="slide1"></label>
+                            <p><span style="color: #69B99D;">"</span>Eu sou cliente do Beautysalon há 5 anos e não troco</p>
+                            <p>por nada! Certamente meu cabelo mudou muito depois</p>
+                            <p>que comecei a tratar somente com produtos naturais e</p>
+                            <p>veganos. São profissionais incríveis e qualificados.</p>
+                            <div class="col">
+                                <div class="fotodeperfil01">
+                                    <img src="./styles/img/perfil-1.png" alt="">
+                                </div>
+                                <div class="nome01">
+                                    <p><span style="color: gray;">Wanessa Souza</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" id="slide2" name="slide">
+                            <label for="slide2"></label>
+                            <p><span style="color: #69B99D;">"</span>Minha mãe frequenta o salão há anos e me levou um dia</p>
+                            <p> para conhecer. Minha experiência foi incrível, eu continuo</p>
+                            <p>fazendo o a terapia capilar e isso salvou o meu cabelo.</p>
+                            <p>Adoro todos os profissionais do Beautysalon.</p>
+                            <div class="col">
+                                <div class="fotodeperfil02">
+                                    <img src="./styles/img/perfeil-2.png" alt="">
+                                </div>
+                                <div class="nome01">
+                                    <p><span style="color: gray;">Luna Falcão</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quintaTela">
+                <div class="col">
+                    <h2>Entre em contato</h2>
+                    <h2>com a gente!</h2>
+                    <p>Entre em contato com a Beautysalon,</p>
+                    <p>queremos tirar suas dúvidas, ouvir suas</p>
+                    <p>críticas e sugestões.</p>
+                    <button>
+                        <div class="zap"><img src="./styles/img/zap.png" alt=""></div>
+                        <p><span style="color: #fff;">Entrar em contato</span></p>
+                    </button>
+                </div>
+                <div class="col">
+                    <div class="telefone">
+                        <img src="./styles/img/telefone.png" alt="">
+                        <p><span style="color: #767676;">11 99845-6754</span></p>
+                    </div>
+                    <div class="rua">
+                        <img src="./styles/img/loc.png" alt="">
+                        <p><span style="color: #767676;">R. Amauri Souza, 346</span></p>
+                    </div>
+                    <div class="email">
+                        <img src="./styles/img/email.png" alt="">
+                        <p><span style="color: #767676;">contato@beautysalon.com</span></p>
+                    </div>
+                </div>
             </div>
         </main>
+        <footer>
+            <div class="row">
+                <div class="col" id="lado1"><h2><span style="color: #0F241D;">beauty</span><span style="color: #f9f9f9;">salon</span><span style="color: #0F241D;">.</span></h2>
+                    <p style="color: #f9f9f9;">©2021 Beautysalon.</p>
+                    <p style="color: #f9f9f9;">Todos os direitos reservados.</p></div>
+                <div class="col" id="lado2">
+                    <img src="./styles/img/app.png" alt="">
+                </div>
+            </div>
+        </footer>
     </div>
+    <script src="../scripts/main.js"></script>
 </body>
+
 </html>

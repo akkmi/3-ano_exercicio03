@@ -1,0 +1,22 @@
+$corVerde : #69B99D; 
+$fundoDasCaixinhas : #F9F9F9;
+
+span{
+    color: $corVerde;
+}
+
+header{
+    border-bottom: 10px;
+    border-color: black;
+}
+
+.caixinhas{
+    background-color: $fundoDasCaixinhas;
+}
+
+.quintaTela{
+    background-color: $fundoDasCaixinhas;
+}
+footer{
+    background-color: $corVerde;
+}
